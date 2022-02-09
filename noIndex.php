@@ -5,20 +5,20 @@
  ?>
 
 <!-- no index for posts in the websites-->	
-<?php if(is_single(1918)): ?>
+<?php if(is_single(****ID Page)): ?>
 <meta name="robots" content="noindex,nofollow">
 <?php endif; ?>
 <!-- no index for posts in the websites-->	
 
 
 <!-- no index for pages in the websites-->	
-<?php if(is_page(21)): ?>
+<?php if(is_page(URLS PAGE)): ?>
 <meta name="robots" content="noindex,nofollow">
 <?php endif; ?>
 
 
 <!-- no index for pages. more than one page-->	
 
-<?php if ( is_page('big-announcement') || is_page('new-update-coming-soon') ) ) : ?>
+<?php if ( is_page('********') || is_page('*******') ) ) : ?>
 <meta name="robots" content="noindex,nofollow">
 <?php endif; ?>
